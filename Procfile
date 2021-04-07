@@ -1,0 +1,1 @@
+web: gunicorn superpixel-fire:app --log-file -
