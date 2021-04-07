@@ -39,17 +39,3 @@ Initial dataset was having only **471** images in total, hence lead to better re
 | ---------------------- | :--------: | :-------: | :----: | -------- |
 | xresnet50-sa-mish-r128 |   25.49    |   74.51   | 74.51  | 74.51    |
 | xresnet50-sa-mish-r192 |   18.90    |   81.10   | 81.10  | 81.10    |
-
-sa- self attention, [mish](https://github.com/digantamisra98/Mish)- activation function, r-resolution
-
-*Higher resolutions are improving the results*
-
-#### Confusion matrix (xresnet50-sa-mish-r192):
-
-![cm](docs/cm-r192.png)
-
-#### Top Losses:
-
-![top-losses](docs/top-losses-192.png)
-
-
