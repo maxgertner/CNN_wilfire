@@ -53,14 +53,3 @@ sa- self attention, [mish](https://github.com/digantamisra98/Mish)- activation f
 ![top-losses](docs/top-losses-192.png)
 
 
-
-#### Observations:
-
-Clearly the model is confused between like classes and some of them can be ignored. For instance, predicting a non-fire image as cloud or smoke as fire is acceptable and model should focus on distinguishing the counterparts of them. 
-
-- Mapping Multiclass predictions to binary could lead to better accuracy.
-- Loss function customized for this scenario could improve the performance, although it might make the model too specific.
-
-
-
-*Initial release (based on dataset of 471 images) was having best results with **mobilenet-v2** and have been deployed on the raspberrypi using tflite*
