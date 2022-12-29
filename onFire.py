@@ -1,13 +1,3 @@
-################################################################################
-
-# Example : perform live fire detection in video using InceptionV1-OnFire CNN
-
-# Copyright (c) 2017/18 - Andrew Dunnings / Toby Breckon, Durham University, UK
-
-# License : https://github.com/tobybreckon/fire-detection-cnn/blob/master/LICENSE
-
-################################################################################
-
 import cv2
 import os
 import sys
