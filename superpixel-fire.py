@@ -141,10 +141,7 @@ print("Loaded CNN network weights ...")
 windowName = "Analyzed video"
 keepProcessing = True
 
-MY_NUMBER = '+65022234175'
 
-account_sid = "AC7bc55574057f033caa8f149901bbb31b"
-auth_token = "d5f738d7f380aa68de8142b5c96bc790"
 
 video = cv2.VideoCapture(1)
 print("Loaded video ...")
@@ -167,12 +164,7 @@ port = 3030
 require_login = False
 streamer = Streamer(port, require_login)
 
-#def send_message(body):
- #   client = Client(account_sid, auth_token)
-  #  client.messages.create(
-   #   to='+16502234175',
-     # from_="+18312784028",
-    #  body="A fire has been detected!")
+
 
 while (keepProcessing):
 
